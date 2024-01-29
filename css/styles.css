@@ -30,13 +30,14 @@ img {
 .container {
   width: 100%;
   max-width: 1158px;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
   margin: 0 auto;
 }
 .container-header {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
   display: flex;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-list-nav {
   display: flex;
@@ -53,6 +54,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   align-items: center;
+  margin-right: 76px;
 }
 .logo span {
   color: #2e2f42;
@@ -71,10 +73,10 @@ img {
 .header-link:focus {
   color: #404bbf;
 }
+
 .header-menu-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 40px;
   margin-left: 76px;
 }
@@ -173,8 +175,7 @@ img {
   width: 264px;
 }
 .container-list {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 120px 0;
 }
 
 /* TEAM SECTION */
@@ -294,8 +295,7 @@ img {
 
 /* FOOTER SECTION */
 .container-footer {
-  padding-top: 101.5px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 .footer {
   background: #2e2f42;
